@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>ТЭММА — Юридическая поддержка бизнеса</title>
+  <meta name="description" content="ТЭММА — юридическая поддержка бизнеса: договоры и сделки, арбитраж, взыскание задолженности, банкротство, налоговые споры и абонентское сопровождение от 25 000 ₽ в месяц." />
+  <meta name="theme-color" content="#070d12" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "name": "ТЭММА — юридическая поддержка бизнеса",
+    "legalName": "ООО «АКВАТУР»",
+    "url": "https://тэмма.рф",
+    "telephone": "+7-978-530-23-41",
+    "email": "temma@info.ru",
+    "priceRange": "от 25 000 ₽",
+    "address": {
+      "@type": "PostalAddress",
+      "postalCode": "295011",
+      "addressRegion": "Республика Крым",
+      "addressLocality": "Симферополь",
+      "streetAddress": "ул. Горького, д. 30, кв. 1",
+      "addressCountry": "RU"
+    },
+    "areaServed": "RU"
+  }
+  </script>
+</head>
+<body>
+  <!-- Subtle Analog Film Grain -->
+  <div class="grain-layer" aria-hidden="true">
+    <svg class="grain-svg">
+      <filter id="film-grain">
+        <feTurbulence type="fractalNoise" baseFrequency="0.78" numOctaves="3" stitchTiles="stitch" />
+        <feColorMatrix type="saturate" values="0" />
+      </filter>
+      <rect width="100%" height="100%" filter="url(#film-grain)" />
+    </svg>
+  </div>
+
+  <!-- Fixed Full-Viewport 360-Frame Cinema Video Stage (Film-Graded) -->
+  <div class="cinema-stage" aria-hidden="true">
+    <canvas id="cinema-canvas" class="cinema-canvas"></canvas>
+    <div class="cinema-scrim"></div>
+  </div>
+
+  <!-- Minimalist Architectural Header -->
+  <header class="site-header" id="site-header">
+    <div class="wrap header-row">
+      <a href="#top" class="brand" aria-label="ТЭММА — на главную">
+        <span class="brand-monogram">Т</span>
+        <span class="brand-wordmark">ТЭММА</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Основная навигация">
+        <a href="#entry">Направления</a>
+        <a href="#services">Практики</a>
+        <a href="#process">Порядок работы</a>
+        <a href="#about">О компании</a>
+        <a href="#request">Контакты</a>
+      </nav>
+
+      <div class="header-right">
+        <a href="tel:+79785302341" class="header-phone">+7 (978) 530-23-41</a>
+        <a href="#request" class="btn-primary btn-sm">Обсудить задачу</a>
+        <button type="button" class="menu-trigger" id="mobile-menu-toggle" aria-expanded="false" aria-controls="mobile-drawer">
+          Меню
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-drawer" id="mobile-drawer" hidden>
+      <nav class="mobile-nav">
+        <a href="#entry">С чего начать</a>
+        <a href="#services">10 практик</a>
+        <a href="#process">Порядок работы</a>
+        <a href="#about">О компании</a>
+        <a href="#request">Оставить задачу</a>
+      </nav>
+      <div class="mobile-contacts">
+        <a href="tel:+79785302341">+7 (978) 530-23-41</a>
+        <a href="mailto:temma@info.ru">temma@info.ru</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ===================================================================
+         SCENE 01 (Frames 001–120 · Orbital Satellite -> Contract Dossier)
+         Wide 12-Column Architectural Editorial Hero (Open Center for 3D Satellite!)
+         =================================================================== -->
+    <section class="scene scene-hero" id="hero">
+      <div class="wrap hero-stage">
+        <div class="hero-top">
+          <p class="kicker" data-reveal>Юридическая поддержка бизнеса · Симферополь и РФ</p>
+          <h1 class="display-h1 hero-wide-title" data-kinetic>
+            <span class="k-line"><span class="k-word">Когда</span> <span class="k-word">право</span> <span class="k-word">должно</span></span>
+            <span class="k-line"><em class="k-word">работать</em> <em class="k-word">на</em> <em class="k-word">бизнес</em></span>
+          </h1>
+        </div>
+
+        <div class="hero-bottom" data-reveal>
+          <div class="hero-bottom-left">
+            <p class="lead-text">
+              Договоры, арбитражные споры, взыскание задолженности и текущее сопровождение компаний. Разбираем задачу, фиксируем план и ведём дело до понятного результата.
+            </p>
+            <div class="action-row">
+              <a href="#request" class="btn-primary">Обсудить задачу</a>
+              <a href="#services" class="btn-text-link">Десять практик ↓</a>
+            </div>
+          </div>
+
+          <div class="hero-figures">
+            <div class="figure-item">
+              <span class="figure-val">10</span>
+              <span class="figure-cap">практик права для бизнеса</span>
+            </div>
+            <div class="figure-sep" aria-hidden="true"></div>
+            <div class="figure-item">
+              <span class="figure-val">от 25 000 ₽</span>
+              <span class="figure-cap">абонентское сопровождение / мес</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         SCENE 02 (Frames 091–180 · Contract Stack + Brass Seal)
+         Open Editorial Hairline List on the Right — Zero Heavy Boxes
+         =================================================================== -->
+    <section class="scene scene-entry" id="entry">
+      <div class="wrap">
+        <div class="entry-layout">
+          <div class="entry-column">
+            <header class="scene-head" data-reveal>
+              <p class="kicker">01 — С чего начать</p>
+              <h2 class="display-h2">Выберите, что нужно <em>решить сейчас</em></h2>
+            </header>
+
+            <div class="editorial-list">
+              <article class="editorial-row" data-reveal>
+                <span class="row-num">01</span>
+                <div class="row-content">
+                  <h3>Договоры и сделки</h3>
+                  <p>
+                    Разработка, проверка и согласование договоров поставки, подряда, аренды и услуг. Убираем скрытые риски и невыгодные штрафы до подписания.
+                  </p>
+                  <button type="button" class="inline-action" data-prefill-practice="Договорная работа и сделки" data-prefill-service="Экспертиза и разработка договора">
+                    Поручить разбор договора →
+                  </button>
+                </div>
+              </article>
+
+              <article class="editorial-row" data-reveal>
+                <span class="row-num">02</span>
+                <div class="row-content">
+                  <h3>Споры и взыскание</h3>
+                  <p>
+                    Досудебные претензии, арбитраж и реальное получение денег по исполнительному листу. Оцениваем перспективу взыскания до подачи иска.
+                  </p>
+                  <button type="button" class="inline-action" data-prefill-practice="Взыскание задолженности" data-prefill-service="Взыскание задолженности и арбитраж">
+                    Оценить перспективу спора →
+                  </button>
+                </div>
+              </article>
+
+              <article class="editorial-row" data-reveal>
+                <span class="row-num">03</span>
+                <div class="row-content">
+                  <div class="row-title-line">
+                    <h3>Текущая поддержка</h3>
+                    <span class="row-price">от 25 000 ₽ / мес</span>
+                  </div>
+                  <p>
+                    Юридический отдел на абонентском сопровождении: закрываем ежедневные договоры, претензии, кадровые и корпоративные вопросы без затрат на штат.
+                  </p>
+                  <button type="button" class="inline-action" data-prefill-practice="Абонентское обслуживание" data-prefill-service="Абонентское сопровождение бизнеса (от 25 000 ₽/мес)">
+                    Подобрать формат сопровождения →
+                  </button>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         SCENE 03A (Frames 181–235 · Arbitration Balance Scale)
+         Clean Matte 10-Practice Explorer (Functional Surface, Zero Clutter)
+         =================================================================== -->
+    <section class="scene scene-services" id="services">
+      <div class="wrap">
+        <header class="scene-head scene-head-split" data-reveal>
+          <div>
+            <p class="kicker">02 — Направления работы</p>
+            <h2 class="display-h2">Практики <em>ТЭММЫ</em></h2>
+          </div>
+          <p class="head-note">
+            Десять профильных направлений гражданского, корпоративного и налогового права. Выберите практику, чтобы посмотреть состав работы и передать задачу юристу.
+          </p>
+        </header>
+
+        <div class="practices-shell" data-reveal>
+          <div class="practices-nav" role="tablist" aria-label="Практики ТЭММЫ">
+            <button type="button" class="practice-btn is-active" role="tab" aria-selected="true" data-practice-id="p01">
+              <span class="p-idx">01</span>
+              <span class="p-name">Договорная работа и сделки</span>
+            </button>
+            <button type="button" class="practice-btn" role="tab" aria-selected="false" data-practice-id="p02">
+              <span class="p-idx">02</span>
+              <span class="p-name">Арбитраж и судебные споры</span>
+            </button>
+            <button type="button" class="practice-btn" role="tab" aria-selected="false" data-practice-id="p03">
+              <span class="p-idx">03</span>
+              <span class="p-name">Взыскание задолженности</span>
+            </button>
+            <button type="button" class="practice-btn" role="tab" aria-selected="false" data-practice-id="p04">
+              <span class="p-idx">04</span>
+              <span class="p-name">Корпоративные споры</span>
+            </button>
+            <button type="button" class="practice-btn" role="tab" aria-selected="false" data-practice-id="p05">
+              <span class="p-idx">05</span>
+              <span class="p-name">Банкротство</span>
+            </button>
+            <button type="button" class="practice-btn" role="tab" aria-selected="false" data-practice-id="p06">
+              <span class="p-idx">06</span>
+              <span class="p-name">Трудовые споры</span>
+            </button>
+            <button type="button" class="practice-btn" role="tab" aria-selected="false" data-practice-id="p07">
+              <span class="p-idx">07</span>
+              <span class="p-name">Недвижимость и строительство</span>
+            </button>
+            <button type="button" class="practice-btn" role="tab" aria-selected="false" data-practice-id="p08">
+              <span class="p-idx">08</span>
+              <span class="p-name">Интеллектуальная собственность</span>
+            </button>
+            <button type="button" class="practice-btn" role="tab" aria-selected="false" data-practice-id="p09">
+              <span class="p-idx">09</span>
+              <span class="p-name">Налоговые споры</span>
+            </button>
+            <button type="button" class="practice-btn" role="tab" aria-selected="false" data-practice-id="p10">
+              <span class="p-idx">10</span>
+              <span class="p-name">Абонентское обслуживание</span>
+            </button>
+          </div>
+
+          <div class="practice-detail" id="practice-dossier" role="tabpanel" aria-live="polite">
+            <div class="detail-top">
+              <span class="detail-kicker" id="dossier-code">Практика 01 / 10</span>
+              <h3 class="detail-title" id="dossier-title">Договорная работа и сделки</h3>
+              <p class="detail-summary" id="dossier-summary">
+                Готовим, проверяем и согласуем договоры под реальные процессы компании, чтобы условия защищали деньги, сроки и управляемость сделки.
+              </p>
+            </div>
+
+            <div class="detail-columns">
+              <div class="detail-col">
+                <h4>Что входит в работу</h4>
+                <ul class="clean-list" id="dossier-includes">
+                  <li>Разработка договоров поставки, подряда, оказания услуг, аренды и смешанных сделок</li>
+                  <li>Правовая экспертиза договора контрагента с картой финансовых и судебных рисков</li>
+                  <li>Подготовка протоколов разногласий и участие в переговорах по согласованию условий</li>
+                  <li>Проверка контрагента, полномочий подписанта и обеспечительных механизмов</li>
+                </ul>
+              </div>
+              <div class="detail-col">
+                <h4>Когда подключаемся</h4>
+                <ul class="clean-list" id="dossier-forwhom">
+                  <li>Выход на крупного заказчика или поставщика с жёсткой типовой формой договора</li>
+                  <li>Сложная сделка с отсрочкой платежа, этапами приёмки или авансированием</li>
+                  <li>Необходимость обновить шаблоны договоров компании под актуальную практику</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="detail-format">
+              <span class="format-label">Формат работы:</span>
+              <div class="format-tabs" role="group" aria-label="Формат подключения">
+                <button type="button" class="format-tab is-active" data-format="Разовая задача">Разовая задача</button>
+                <button type="button" class="format-tab" data-format="Судебный процесс">Судебный процесс</button>
+                <button type="button" class="format-tab" data-format="Абонентское сопровождение (от 25 000 ₽/мес)">Абонентка от 25 000 ₽</button>
+              </div>
+            </div>
+
+            <div class="detail-actions">
+              <button type="button" class="btn-primary" id="dossier-cta-btn" data-prefill-practice="Договорная работа и сделки" data-prefill-service="Разработка и правовая экспертиза договора · Разовая задача">
+                Передать задачу по этой практике →
+              </button>
+              <a href="https://xn--80axaw9c.xn--p1ai/services.html" class="btn-text-link" target="_blank" rel="noopener">
+                Полный состав услуг
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         SCENE 03B (Frames 236–275 · Balanced Scales)
+         Open 4-Column Hairline Grid — Zero Heavy Boxes
+         =================================================================== -->
+    <section class="scene scene-process" id="process">
+      <div class="wrap">
+        <header class="scene-head scene-head-split" data-reveal>
+          <div>
+            <p class="kicker">03 — Порядок работы</p>
+            <h2 class="display-h2">От обращения <em>до результата</em></h2>
+          </div>
+          <p class="head-note">
+            Прозрачный порядок без скрытых часов: фиксируем состав действий, сроки и стоимость до начала работы.
+          </p>
+        </header>
+
+        <div class="process-line" aria-hidden="true">
+          <div class="process-line-fill" id="process-scroll-fill"></div>
+        </div>
+
+        <div class="process-grid">
+          <article class="process-item" data-reveal>
+            <span class="process-idx">01</span>
+            <h3>Получаем задачу</h3>
+            <p>Принимаем описание ситуации и базовые документы через сайт, Telegram или почту и уточняем цель бизнеса.</p>
+          </article>
+          <article class="process-item" data-reveal>
+            <span class="process-idx">02</span>
+            <h3>Разбираем ситуацию</h3>
+            <p>Изучаем договоры, сроки давности, доказательства и судебную практику — отделяем рабочие шаги от лишних.</p>
+          </article>
+          <article class="process-item" data-reveal>
+            <span class="process-idx">03</span>
+            <h3>Согласуем план</h3>
+            <p>Утверждаем конкретный объём работ, сроки подготовки документов и прозрачную стоимость этапа или тарифа.</p>
+          </article>
+          <article class="process-item" data-reveal>
+            <span class="process-idx">04</span>
+            <h3>Ведём работу</h3>
+            <p>Готовим документы, проводим переговоры, представляем интересы в суде и держим связь на каждом шаге.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         SCENE 04A (Frames 276–318 · Architectural Monolith)
+         Open Editorial Statement + Minimalist Legal Profile
+         =================================================================== -->
+    <section class="scene scene-about" id="about">
+      <div class="wrap">
+        <div class="about-grid">
+          <div class="about-copy" data-reveal>
+            <p class="kicker">04 — О компании</p>
+            <h2 class="display-h2">
+              Право должно помогать бизнесу <em>действовать</em>, а не останавливать процессы
+            </h2>
+            <p class="lead-text">
+              Мы выстраиваем правовую работу так, чтобы руководитель видел не набор ссылок на статьи, а ясную развилку решений: где риск критичен, как закрыть его в договоре и какой шаг даст лучший экономический результат.
+            </p>
+          </div>
+
+          <aside class="requisites-block" aria-label="Реквизиты" data-reveal>
+            <div class="req-title">Реквизиты оператора</div>
+            <dl class="req-list">
+              <div class="req-line"><dt>Организация</dt><dd>ООО «АКВАТУР» (ТЭММА)</dd></div>
+              <div class="req-line"><dt>ИНН / КПП</dt><dd>9102005244 / 910201001</dd></div>
+              <div class="req-line"><dt>ОГРН</dt><dd>1149102006855</dd></div>
+              <div class="req-line"><dt>Адрес</dt><dd>295011, г. Симферополь, ул. Горького, д. 30, кв. 1</dd></div>
+              <div class="req-line"><dt>Контакты</dt><dd><a href="tel:+79785302341">+7 (978) 530-23-41</a> · <a href="mailto:temma@info.ru">temma@info.ru</a></dd></div>
+            </dl>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         SCENE 04B (Frames 319–360 · Final Monolith -> CRM Form & Footer)
+         Strict Matte Architectural CRM Form (100% POST /api/leads Contract)
+         =================================================================== -->
+    <section class="scene scene-request" id="request">
+      <div class="wrap">
+        <div class="request-grid">
+          <div class="request-copy" data-reveal>
+            <p class="kicker">05 — Первый шаг</p>
+            <h2 class="display-h2">Расскажите, что нужно <em>решить</em></h2>
+            <p class="lead-text">
+              Опишите задачу в двух-трёх предложениях и при необходимости приложите документы. На первом шаге мы разбираем ситуацию без обязательств и предлагаем понятный план работы.
+            </p>
+            <div class="direct-contacts">
+              <a href="tel:+79785302341" class="direct-link">+7 (978) 530-23-41</a>
+              <a href="mailto:temma@info.ru" class="direct-link">temma@info.ru</a>
+              <span class="direct-addr">Республика Крым, г. Симферополь, ул. Горького, д. 30, кв. 1</span>
+            </div>
+          </div>
+
+          <div class="request-panel" data-reveal>
+            <form id="lead-form" class="crm-form" novalidate>
+              <div class="form-head">
+                <span>Новая задача</span>
+                <span class="form-time">Около 1 минуты</span>
+              </div>
+
+              <div class="field-row">
+                <div class="field">
+                  <label for="lead-name">Ваше имя *</label>
+                  <input type="text" id="lead-name" name="name" required placeholder="Александр" autocomplete="name" />
+                </div>
+                <div class="field">
+                  <label for="lead-company">Компания</label>
+                  <input type="text" id="lead-company" name="company" placeholder="ООО или ИП" autocomplete="organization" />
+                </div>
+              </div>
+
+              <div class="field">
+                <span class="field-lbl">Куда удобнее ответить *</span>
+                <div class="channel-group" role="radiogroup" aria-label="Способ связи">
+                  <label class="channel-opt is-selected">
+                    <input type="radio" name="contact_channel" value="telegram" checked />
+                    <span>Telegram</span>
+                  </label>
+                  <label class="channel-opt">
+                    <input type="radio" name="contact_channel" value="email" />
+                    <span>Почта</span>
+                  </label>
+                  <label class="channel-opt">
+                    <input type="radio" name="contact_channel" value="phone" />
+                    <span>Телефон</span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="lead-contact" id="lead-contact-label">Контакт в Telegram (телефон или @username) *</label>
+                <input type="text" id="lead-contact" name="contact" required placeholder="@username или +7 (978) 000-00-00" />
+              </div>
+
+              <div class="field-row">
+                <div class="field">
+                  <label for="lead-task-type">Тип юридической задачи *</label>
+                  <div class="select-box">
+                    <select id="lead-task-type" name="task_type" required>
+                      <option value="Договорная работа и сделки">01 · Договорная работа и сделки</option>
+                      <option value="Арбитраж и судебные споры">02 · Арбитраж и судебные споры</option>
+                      <option value="Взыскание задолженности">03 · Взыскание задолженности</option>
+                      <option value="Корпоративные споры">04 · Корпоративные споры</option>
+                      <option value="Банкротство">05 · Банкротство</option>
+                      <option value="Трудовые споры">06 · Трудовые споры</option>
+                      <option value="Недвижимость и строительство">07 · Недвижимость и строительство</option>
+                      <option value="Интеллектуальная собственность">08 · Интеллектуальная собственность</option>
+                      <option value="Налоговые споры">09 · Налоговые споры</option>
+                      <option value="Абонентское обслуживание">10 · Абонентское обслуживание</option>
+                      <option value="Другая задача бизнеса">Другая задача бизнеса</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="field">
+                  <label for="lead-timeline">Желаемый срок</label>
+                  <div class="select-box">
+                    <select id="lead-timeline" name="timeline">
+                      <option value="Срочно (1–2 дня)">Срочно (1–2 дня)</option>
+                      <option value="В течение недели" selected>В течение недели</option>
+                      <option value="Плановая задача">Плановая задача</option>
+                      <option value="Постоянное сопровождение">Постоянное сопровождение</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="lead-service">Выбранная услуга</label>
+                <input type="text" id="lead-service" name="service" placeholder="Заполняется автоматически при выборе практики" />
+              </div>
+
+              <div class="field">
+                <label for="lead-description">Кратко опишите задачу *</label>
+                <textarea id="lead-description" name="description" rows="4" required placeholder="В чём суть вопроса и какого результата нужно достичь?"></textarea>
+              </div>
+
+              <div class="field">
+                <label for="lead-files">Документы (до 5 файлов, до 12 МБ)</label>
+                <div class="file-zone" id="file-dropzone">
+                  <input type="file" id="lead-files" name="files" multiple accept=".pdf,.doc,.docx,.xls,.xlsx,.jpg,.jpeg,.png,.txt,.zip" />
+                  <span>Прикрепить проект договора, претензию или материалы дела</span>
+                </div>
+                <div class="file-list" id="file-list" aria-live="polite"></div>
+              </div>
+
+              <input type="hidden" name="calculator_result" id="calculator_result" value="" />
+              <input type="hidden" name="calculator_quantity" id="calculator_quantity" value="" />
+              <input type="hidden" name="submission_id" id="submission_id" value="" />
+              <input type="hidden" name="source" id="lead_source" value="temma-editorial-cinema" />
+
+              <label class="consent-row">
+                <input type="checkbox" id="lead-consent" name="consent" required checked />
+                <span>
+                  Соглашаюсь на обработку персональных данных в соответствии с
+                  <a href="https://xn--80axaw9c.xn--p1ai/privacy.html" target="_blank" rel="noopener">Политикой конфиденциальности</a>.
+                </span>
+              </label>
+
+              <button type="submit" class="btn-primary btn-full" id="lead-submit-btn">
+                <span>Оставить задачу</span>
+              </button>
+
+              <div class="form-status" id="form-status" role="status" aria-live="polite" hidden></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <div class="footer-left">
+        <span class="footer-copy">© 2026 ТЭММА · ООО «АКВАТУР»</span>
+        <span class="footer-req">ИНН 9102005244 · ОГРН 1149102006855</span>
+      </div>
+      <div class="footer-right">
+        <a href="https://xn--80axaw9c.xn--p1ai/privacy.html" target="_blank" rel="noopener">Конфиденциальность</a>
+        <a href="https://xn--80axaw9c.xn--p1ai/cookies.html" target="_blank" rel="noopener">Cookie</a>
+        <a href="https://xn--80axaw9c.xn--p1ai/login">Вход в CRM</a>
+        <a href="#top">Наверх ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Whisper-Thin 2px Bottom Progress Bar (Zero Clutter) -->
+  <div class="cinema-progress-thread" aria-hidden="true">
+    <div class="cinema-progress-fill" id="cinema-progress-fill"></div>
+  </div>
+
+  <!-- Minimal Cookie Notice -->
+  <aside class="cookie-notice" id="cookie-banner" aria-label="Уведомление о cookie" hidden>
+    <p>
+      Используем технические cookie для работы формы заявки (<a href="https://xn--80axaw9c.xn--p1ai/cookies.html" target="_blank" rel="noopener">подробнее</a>).
+    </p>
+    <div class="cookie-btns">
+      <button type="button" class="btn-primary btn-xs" id="cookie-accept-all">Принять</button>
+      <button type="button" class="btn-text-link btn-xs" id="cookie-accept-necessary">Только необходимые</button>
+    </div>
+  </aside>
+
+  <script src="storyboard3d.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
